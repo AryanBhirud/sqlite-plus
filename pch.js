@@ -49,7 +49,7 @@ const insertUser = (name, email) => {
 };
 
 // Populate the table with 50 entries
-for (let i = 1; i <= 50; i++) {
+for (let i = 40; i <= 80; i++) {
   const name = `User${i}`;
   const email = `user${i}@example.com`;
   insertUser(name, email);
