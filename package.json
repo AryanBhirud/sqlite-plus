@@ -1,10 +1,10 @@
 {
-  "name": "sqlite-plus",
+  "name": "graphsqlite",
   "version": "1.0.0",
   "description": "A tool for managing SQLite databases with auto-scaling and GraphQL support",
   "main": "lib/database.js",
   "bin": {
-    "sqlite-plus": "./bin/cli.js"
+    "graphsqlite": "./bin/cli.js"
   },
   "scripts": {
     "start": "node bin/cli.js"
